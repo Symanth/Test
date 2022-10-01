@@ -4,18 +4,8 @@ using UnityEngine;
 
 public class SceneManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+	private void MethodString(string s)
     {
-        Debug.Log("Start scene");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       if (true) 
-       {
-            Debug.Log("Start");
-       }
+        string s1 = s + "Hello";
     }
 }
