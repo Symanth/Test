@@ -13,6 +13,9 @@ public class SceneManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       Debug.Log("QA RULES"); 
+       if (true) 
+       {
+            Debug.Log("Start");
+       }
     }
 }
